@@ -10,7 +10,7 @@
     "visual",
     "studio"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/Shmizmin/one-dark-syntax-mod",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
