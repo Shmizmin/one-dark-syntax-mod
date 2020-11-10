@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+  "_id": "one-dark-syntax-mod@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lU6w9CDal3xEiOIvU7AECsrU0Sg2W6o/uE69VPlHRA/FUkVYFAWxVc2gJNHxzd16erZ2eK4VH4LMt8fRbZJh4g==",
+  "_location": "/one-dark-syntax-mod",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+  "_shasum": "62aa8e87afd4699855ac48b2405f3811b313f087",
+  "_spec": "https://www.atom.io/api/packages/one-dark-syntax-mod/versions/1.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020109-37036-dixwwj.q79rm",
+  "bugs": {
+    "url": "https://github.com/Shmizmin/mod-one-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark syntax theme with certain visual studio elements",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Shmizmin/mod-one-dark-syntax#readme",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax",
+    "visual",
+    "studio"
+  ],
+  "license": "MIT",
+  "name": "one-dark-syntax-mod",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmizmin/mod-one-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
