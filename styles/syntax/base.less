@@ -41,61 +41,61 @@
 }
 
 .syntax--storage {
-  color: @hue-3;
+  color: @comment;
 
   &.syntax--type {
     &.syntax--annotation,
     &.syntax--primitive {
-      color: @hue-3;
+      color: @comment;
     }
   }
 
   &.syntax--modifier {
     &.syntax--package,
     &.syntax--import {
-      color: @mono-1;
+      color: @comment;
     }
   }
 }
 
 .syntax--constant {
-  color: @hue-6;
+  color: @keyword;
 
   &.syntax--variable {
-    color: @hue-6;
+    color: @localvar;
   }
 
   &.syntax--character.syntax--escape {
-    color: @hue-1;
+    color: @comment;
   }
 
   &.syntax--numeric {
-    color: @hue-6;
+    color: @literal;
   }
 
   &.syntax--other.syntax--color {
-    color: @hue-1;
+    color: @comment;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @hue-1;
+    color: @comment;
   }
 }
 
 .syntax--variable {
-  color: @hue-5;
+  color: @localvar;
 
   &.syntax--interpolation {
-    color: @hue-5-2;
+    color: @commen;
   }
 
   &.syntax--parameter {
-    color: @mono-1;
+    color: @parameter;
   }
 }
 
 .syntax--string {
-  color: @hue-4;
+  color: @literal;
 
   > .syntax--source, .syntax--embedded {
     color: @mono-1;
@@ -117,7 +117,7 @@
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @mono-3;
+      color: @comment;
     }
 
     &.syntax--method-parameters,
@@ -178,20 +178,20 @@
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @hue-2;
+    color: @function;
   }
 
   &.syntax--name.syntax--class,
   &.syntax--name.syntax--type.syntax--class {
-    color: @hue-6-2;
+    color: @typename;
   }
 
   &.syntax--name.syntax--section {
-    color: @hue-2;
+    color: @comment;
   }
 
   &.syntax--name.syntax--tag {
-    color: @hue-5;
+    color: @comment;
   }
 
   &.syntax--other.syntax--attribute-name {
